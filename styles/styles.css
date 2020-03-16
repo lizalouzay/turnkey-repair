@@ -3,7 +3,7 @@
 
 
 @media screen and (max-width: 768px) {
-    .header-nav {
+    .header-nav-none {
         display: none;
     }
     .section-home {
@@ -13,7 +13,7 @@
         max-width: 768px;
     }
     .section-home-wrapper {
-        
+
     }
 }
 
