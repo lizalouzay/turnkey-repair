@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Yeseva+One&display=swap');
 
+
+
+@media screen and (max-width: 768px) {
+    .header-nav {
+        display: none;
+    }
+    .section-home {
+        height: 475px;
+    }
+    .section-wrapper {
+        max-width: 768px;
+    }
+    .section-home-wrapper {
+        
+    }
+}
+
+
+
+
+
 html {
     display: block;
     margin: 0;
