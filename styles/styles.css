@@ -31,6 +31,7 @@ button {
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
     border-color: #E3B873;
+    cursor: pointer;
 }
 button:hover{
     background-color: rgba(227, 184, 115, 0.6);
@@ -184,7 +185,7 @@ p {
 }
 .section-projects {
     background-color: black;
-    height: 1074px;
+    padding-bottom: 480px;
 }
 .section-projects-wrapper {
     display: flex;
@@ -301,7 +302,7 @@ p {
     margin-top: 40px;
 }
 .section-online {
-    height: 1072px;
+    padding-bottom: 80px;
 }
 .section-online-wrapper {
     margin-top: -300px;
@@ -382,7 +383,7 @@ p {
     justify-content: center;
   }
 .section-repair {
-    height: 850px;
+    padding-bottom: 80px;
 }
 .h3-repair {
     color: black;
@@ -439,10 +440,9 @@ p {
     margin: 0px;
 }
 .section-num {
-    height: 700px;
     background: #fff url(../images/image\ 6.1.svg) no-repeat;
     padding-top: 80px;
-    padding-bottom: 100px;
+    padding-bottom: 180px;
 }
 .section-num-wrapper {
     display: flex;
@@ -758,7 +758,7 @@ input[type=text1] {
 
 
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1024px) {
     .header-wrapper {
         height: 57px;
         padding: 0 20px;
@@ -881,6 +881,7 @@ input[type=text1] {
         background: #E3B873;
         box-shadow: 0px 10px 20px rgba(227, 184, 115, 0.1);
         border: none;
+        display: block;
     }
     #submit-online {
         display: none;
@@ -1005,14 +1006,102 @@ input[type=text1] {
         line-height: 25px;
     }
 
-.section-geo-wrapper-email, .section-geo-wrapper-inst {
-    transform: scale(1.63);
-    margin: 15px;
+    .section-geo-wrapper-email, .section-geo-wrapper-inst {
+        transform: scale(1.63);
+        margin: 15px;
+    }
+    .section-projects-wrapper-content-mobile {
+        display: block;
+    }
+    .section-repair-wrapper-content-img {
+        width: 300px;
+    }
+    .section-repair-wrapper-content-div {
+        width: 250px;
+    }
+    .h3-white {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .section-repair {
+        height: 0px;
+        padding-bottom: 2000px;
+    }
 }
-.section-projects-wrapper-content-mobile {
-    display: block;
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .h3-fantasies {
+        width: 350px;
+        margin: -225px -5px 40px;
+    }
+    .h3-mobile {
+        padding-left: 58px;
+        padding-right: 0px;
+        width: 300px;
+    }
+    }
 }
+
+
+
+
+
+@media only screen and (max-width: 320px) {
+    .button-cost, .button-submit {
+        width: 300px;
+    }
+    .section-projects-img-arrow-l2 {
+        margin-right: 210px;
+    }
+    .section-online-wrapper-img1 {
+        width: 300px;
+    }
+    .section-online-wrapper-img1-add {
+        left: 75px;
+    }
+    .section-online-form-input {
+        width: 300px;
+    }
+    .section-repair-wrapper-content-ul-li {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .section-repair {
+        height: 0px;
+        padding-bottom: 1900px;
+    }
+    .section-fantasies-img {
+        width: 300px;
+        margin: auto;
+    }
+    .section-geo-mobile-map {
+        width: 300px;
+    }
+    .h3-fantasies {
+        width: 300px;
+        margin: -225px 10px 40px;
+    }
+    .h3-white {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0px;
+    }
+    .section-num-wrapper-form-nn, .section-online-form-mail {
+        margin: auto;
+    }
+    .section-online-form-mail {
+        margin-top: 60px;
+    }
+    .section-projects-img-arrow-l1 {
+        margin-right: 211px;
+        margin-left: 15px;
+    }
+
 }
+
 
 
 
