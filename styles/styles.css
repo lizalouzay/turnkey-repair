@@ -346,6 +346,7 @@ p {
     border: none;
     border-bottom: 1px solid #363636;;
     background-color: transparent;
+    cursor: pointer;
 }
 #submit-online {
     background-color: #E3B873;
@@ -1098,10 +1099,4 @@ input[type=text1] {
         margin-right: 211px;
         margin-left: 15px;
     }
-
 }
-
-
-
-
-
